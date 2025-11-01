@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.data.test.repository
+package com.codemozo.travelneko.core.data.test.repository
 
-import com.google.samples.apps.nowinandroid.core.data.Synchronizer
-import com.google.samples.apps.nowinandroid.core.data.model.asExternalModel
-import com.google.samples.apps.nowinandroid.core.data.repository.NewsRepository
-import com.google.samples.apps.nowinandroid.core.data.repository.NewsResourceQuery
-import com.google.samples.apps.nowinandroid.core.model.data.NewsResource
-import com.google.samples.apps.nowinandroid.core.network.Dispatcher
-import com.google.samples.apps.nowinandroid.core.network.NiaDispatchers.IO
-import com.google.samples.apps.nowinandroid.core.network.demo.DemoNiaNetworkDataSource
+import com.codemozo.travelneko.core.data.Synchronizer
+import com.codemozo.travelneko.core.data.model.asExternalModel
+import com.codemozo.travelneko.core.data.repository.NewsRepository
+import com.codemozo.travelneko.core.data.repository.NewsResourceQuery
+import com.codemozo.travelneko.core.model.data.NewsResource
+import com.codemozo.travelneko.core.network.Dispatcher
+import com.codemozo.travelneko.core.network.NiaDispatchers.IO
+import com.codemozo.travelneko.core.network.demo.DemoNiaNetworkDataSource
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow

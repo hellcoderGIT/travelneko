@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.testing.di
+package com.codemozo.travelneko.core.testing.di
 
 import dagger.Module
 import dagger.Provides

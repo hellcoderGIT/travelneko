@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.datastore
+package com.codemozo.travelneko.core.datastore
 
 import android.util.Log
 import androidx.datastore.core.DataStore
-import com.google.samples.apps.nowinandroid.core.model.data.DarkThemeConfig
-import com.google.samples.apps.nowinandroid.core.model.data.ThemeBrand
-import com.google.samples.apps.nowinandroid.core.model.data.UserData
+import com.codemozo.travelneko.core.model.data.DarkThemeConfig
+import com.codemozo.travelneko.core.model.data.ThemeBrand
+import com.codemozo.travelneko.core.model.data.UserData
 import kotlinx.coroutines.flow.firstOrNull
 import kotlinx.coroutines.flow.map
 import java.io.IOException

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.feature.search
+package com.codemozo.travelneko.feature.search
 
-import com.google.samples.apps.nowinandroid.core.data.model.RecentSearchQuery
+import com.codemozo.travelneko.core.data.model.RecentSearchQuery
 
 sealed interface RecentSearchQueriesUiState {
     data object Loading : RecentSearchQueriesUiState

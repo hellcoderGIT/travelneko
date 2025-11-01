@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.ui
+package com.codemozo.travelneko.ui
 
 import androidx.compose.ui.semantics.SemanticsActions.ScrollBy
 import androidx.compose.ui.test.assertCountEquals
@@ -33,12 +33,12 @@ import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.performScrollToNode
 import androidx.test.espresso.Espresso
 import androidx.test.espresso.NoActivityResumedException
-import com.google.samples.apps.nowinandroid.MainActivity
-import com.google.samples.apps.nowinandroid.R
-import com.google.samples.apps.nowinandroid.core.data.repository.NewsRepository
-import com.google.samples.apps.nowinandroid.core.data.repository.TopicsRepository
-import com.google.samples.apps.nowinandroid.core.model.data.Topic
-import com.google.samples.apps.nowinandroid.core.rules.GrantPostNotificationsPermissionRule
+import com.codemozo.travelneko.MainActivity
+import com.codemozo.travelneko.R
+import com.codemozo.travelneko.core.data.repository.NewsRepository
+import com.codemozo.travelneko.core.data.repository.TopicsRepository
+import com.codemozo.travelneko.core.model.data.Topic
+import com.codemozo.travelneko.core.rules.GrantPostNotificationsPermissionRule
 import dagger.hilt.android.testing.HiltAndroidRule
 import dagger.hilt.android.testing.HiltAndroidTest
 import kotlinx.coroutines.flow.first
@@ -47,10 +47,10 @@ import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 import javax.inject.Inject
-import com.google.samples.apps.nowinandroid.feature.bookmarks.R as BookmarksR
-import com.google.samples.apps.nowinandroid.feature.foryou.R as FeatureForyouR
-import com.google.samples.apps.nowinandroid.feature.search.R as FeatureSearchR
-import com.google.samples.apps.nowinandroid.feature.settings.R as SettingsR
+import com.codemozo.travelneko.feature.bookmarks.R as BookmarksR
+import com.codemozo.travelneko.feature.foryou.R as FeatureForyouR
+import com.codemozo.travelneko.feature.search.R as FeatureSearchR
+import com.codemozo.travelneko.feature.settings.R as SettingsR
 
 /**
  * Tests all the navigation flows that are handled by the navigation library.

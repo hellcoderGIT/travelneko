@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.lint
+package com.codemozo.travelneko.lint
 
 import com.android.tools.lint.client.api.IssueRegistry
 import com.android.tools.lint.client.api.Vendor
 import com.android.tools.lint.detector.api.CURRENT_API
-import com.google.samples.apps.nowinandroid.lint.designsystem.DesignSystemDetector
+import com.codemozo.travelneko.lint.designsystem.DesignSystemDetector
 
 class NiaIssueRegistry : IssueRegistry() {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.ui
+package com.codemozo.travelneko.core.ui
 
 import android.content.ClipData
 import android.os.Build.VERSION
@@ -66,14 +66,14 @@ import androidx.compose.ui.tooling.preview.PreviewParameter
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImagePainter
 import coil.compose.rememberAsyncImagePainter
-import com.google.samples.apps.nowinandroid.core.designsystem.R.drawable
-import com.google.samples.apps.nowinandroid.core.designsystem.component.NiaIconToggleButton
-import com.google.samples.apps.nowinandroid.core.designsystem.component.NiaTopicTag
-import com.google.samples.apps.nowinandroid.core.designsystem.icon.NiaIcons
-import com.google.samples.apps.nowinandroid.core.designsystem.theme.NiaTheme
-import com.google.samples.apps.nowinandroid.core.model.data.FollowableTopic
-import com.google.samples.apps.nowinandroid.core.model.data.NewsResource
-import com.google.samples.apps.nowinandroid.core.model.data.UserNewsResource
+import com.codemozo.travelneko.core.designsystem.R.drawable
+import com.codemozo.travelneko.core.designsystem.component.NiaIconToggleButton
+import com.codemozo.travelneko.core.designsystem.component.NiaTopicTag
+import com.codemozo.travelneko.core.designsystem.icon.NiaIcons
+import com.codemozo.travelneko.core.designsystem.theme.NiaTheme
+import com.codemozo.travelneko.core.model.data.FollowableTopic
+import com.codemozo.travelneko.core.model.data.NewsResource
+import com.codemozo.travelneko.core.model.data.UserNewsResource
 import kotlinx.datetime.Instant
 import kotlinx.datetime.toJavaInstant
 import kotlinx.datetime.toJavaZoneId

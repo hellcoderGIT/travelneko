@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.database.dao
+package com.codemozo.travelneko.core.database.dao
 
-import com.google.samples.apps.nowinandroid.core.database.model.TopicEntity
+import com.codemozo.travelneko.core.database.model.TopicEntity
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.test.runTest
 import org.junit.Test

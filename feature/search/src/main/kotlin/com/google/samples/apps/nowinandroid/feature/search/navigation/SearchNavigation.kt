@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.feature.search.navigation
+package com.codemozo.travelneko.feature.search.navigation
 
 import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavOptions
 import androidx.navigation.compose.composable
-import com.google.samples.apps.nowinandroid.feature.search.SearchRoute
+import com.codemozo.travelneko.feature.search.SearchRoute
 import kotlinx.serialization.Serializable
 
 @Serializable data object SearchRoute

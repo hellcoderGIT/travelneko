@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.network.di
+package com.codemozo.travelneko.core.network.di
 
-import com.google.samples.apps.nowinandroid.core.network.NiaNetworkDataSource
-import com.google.samples.apps.nowinandroid.core.network.demo.DemoNiaNetworkDataSource
+import com.codemozo.travelneko.core.network.NiaNetworkDataSource
+import com.codemozo.travelneko.core.network.demo.DemoNiaNetworkDataSource
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn

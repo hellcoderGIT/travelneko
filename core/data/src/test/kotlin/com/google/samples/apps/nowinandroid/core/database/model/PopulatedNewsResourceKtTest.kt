@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.database.model
+package com.codemozo.travelneko.core.database.model
 
-import com.google.samples.apps.nowinandroid.core.model.data.NewsResource
-import com.google.samples.apps.nowinandroid.core.model.data.Topic
+import com.codemozo.travelneko.core.model.data.NewsResource
+import com.codemozo.travelneko.core.model.data.Topic
 import kotlinx.datetime.Instant
 import org.junit.Test
 import kotlin.test.assertEquals

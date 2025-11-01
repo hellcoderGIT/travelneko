@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.designsystem
+package com.codemozo.travelneko.core.designsystem
 
 import android.os.Build.VERSION.SDK_INT
 import android.os.Build.VERSION_CODES
@@ -27,21 +27,21 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.unit.dp
-import com.google.samples.apps.nowinandroid.core.designsystem.theme.BackgroundTheme
-import com.google.samples.apps.nowinandroid.core.designsystem.theme.DarkAndroidBackgroundTheme
-import com.google.samples.apps.nowinandroid.core.designsystem.theme.DarkAndroidColorScheme
-import com.google.samples.apps.nowinandroid.core.designsystem.theme.DarkAndroidGradientColors
-import com.google.samples.apps.nowinandroid.core.designsystem.theme.DarkDefaultColorScheme
-import com.google.samples.apps.nowinandroid.core.designsystem.theme.GradientColors
-import com.google.samples.apps.nowinandroid.core.designsystem.theme.LightAndroidBackgroundTheme
-import com.google.samples.apps.nowinandroid.core.designsystem.theme.LightAndroidColorScheme
-import com.google.samples.apps.nowinandroid.core.designsystem.theme.LightAndroidGradientColors
-import com.google.samples.apps.nowinandroid.core.designsystem.theme.LightDefaultColorScheme
-import com.google.samples.apps.nowinandroid.core.designsystem.theme.LocalBackgroundTheme
-import com.google.samples.apps.nowinandroid.core.designsystem.theme.LocalGradientColors
-import com.google.samples.apps.nowinandroid.core.designsystem.theme.LocalTintTheme
-import com.google.samples.apps.nowinandroid.core.designsystem.theme.NiaTheme
-import com.google.samples.apps.nowinandroid.core.designsystem.theme.TintTheme
+import com.codemozo.travelneko.core.designsystem.theme.BackgroundTheme
+import com.codemozo.travelneko.core.designsystem.theme.DarkAndroidBackgroundTheme
+import com.codemozo.travelneko.core.designsystem.theme.DarkAndroidColorScheme
+import com.codemozo.travelneko.core.designsystem.theme.DarkAndroidGradientColors
+import com.codemozo.travelneko.core.designsystem.theme.DarkDefaultColorScheme
+import com.codemozo.travelneko.core.designsystem.theme.GradientColors
+import com.codemozo.travelneko.core.designsystem.theme.LightAndroidBackgroundTheme
+import com.codemozo.travelneko.core.designsystem.theme.LightAndroidColorScheme
+import com.codemozo.travelneko.core.designsystem.theme.LightAndroidGradientColors
+import com.codemozo.travelneko.core.designsystem.theme.LightDefaultColorScheme
+import com.codemozo.travelneko.core.designsystem.theme.LocalBackgroundTheme
+import com.codemozo.travelneko.core.designsystem.theme.LocalGradientColors
+import com.codemozo.travelneko.core.designsystem.theme.LocalTintTheme
+import com.codemozo.travelneko.core.designsystem.theme.NiaTheme
+import com.codemozo.travelneko.core.designsystem.theme.TintTheme
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith

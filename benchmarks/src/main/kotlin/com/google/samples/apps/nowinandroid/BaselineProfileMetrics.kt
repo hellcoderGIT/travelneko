@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid
+package com.codemozo.travelneko
 
 import androidx.benchmark.macro.ExperimentalMetricApi
 import androidx.benchmark.macro.StartupTimingMetric

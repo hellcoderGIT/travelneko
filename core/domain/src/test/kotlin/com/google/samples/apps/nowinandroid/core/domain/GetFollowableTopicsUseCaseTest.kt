@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.domain
+package com.codemozo.travelneko.core.domain
 
-import com.google.samples.apps.nowinandroid.core.domain.TopicSortField.NAME
-import com.google.samples.apps.nowinandroid.core.model.data.FollowableTopic
-import com.google.samples.apps.nowinandroid.core.model.data.Topic
-import com.google.samples.apps.nowinandroid.core.testing.repository.TestTopicsRepository
-import com.google.samples.apps.nowinandroid.core.testing.repository.TestUserDataRepository
-import com.google.samples.apps.nowinandroid.core.testing.util.MainDispatcherRule
+import com.codemozo.travelneko.core.domain.TopicSortField.NAME
+import com.codemozo.travelneko.core.model.data.FollowableTopic
+import com.codemozo.travelneko.core.model.data.Topic
+import com.codemozo.travelneko.core.testing.repository.TestTopicsRepository
+import com.codemozo.travelneko.core.testing.repository.TestUserDataRepository
+import com.codemozo.travelneko.core.testing.util.MainDispatcherRule
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.test.runTest
 import org.junit.Rule

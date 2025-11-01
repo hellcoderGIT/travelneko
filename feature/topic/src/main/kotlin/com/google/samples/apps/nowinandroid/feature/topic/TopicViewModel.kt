@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.feature.topic
+package com.codemozo.travelneko.feature.topic
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.google.samples.apps.nowinandroid.core.data.repository.NewsResourceQuery
-import com.google.samples.apps.nowinandroid.core.data.repository.TopicsRepository
-import com.google.samples.apps.nowinandroid.core.data.repository.UserDataRepository
-import com.google.samples.apps.nowinandroid.core.data.repository.UserNewsResourceRepository
-import com.google.samples.apps.nowinandroid.core.model.data.FollowableTopic
-import com.google.samples.apps.nowinandroid.core.model.data.Topic
-import com.google.samples.apps.nowinandroid.core.model.data.UserNewsResource
-import com.google.samples.apps.nowinandroid.core.result.Result
-import com.google.samples.apps.nowinandroid.core.result.asResult
+import com.codemozo.travelneko.core.data.repository.NewsResourceQuery
+import com.codemozo.travelneko.core.data.repository.TopicsRepository
+import com.codemozo.travelneko.core.data.repository.UserDataRepository
+import com.codemozo.travelneko.core.data.repository.UserNewsResourceRepository
+import com.codemozo.travelneko.core.model.data.FollowableTopic
+import com.codemozo.travelneko.core.model.data.Topic
+import com.codemozo.travelneko.core.model.data.UserNewsResource
+import com.codemozo.travelneko.core.result.Result
+import com.codemozo.travelneko.core.result.asResult
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject

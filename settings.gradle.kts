@@ -42,7 +42,7 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "nowinandroid"
+rootProject.name = "travelneko"
 
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 include(":app")

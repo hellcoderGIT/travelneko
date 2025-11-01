@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.feature.topic
+package com.codemozo.travelneko.feature.topic
 
 import androidx.annotation.VisibleForTesting
 import androidx.compose.foundation.gestures.Orientation
@@ -52,23 +52,23 @@ import androidx.compose.ui.tooling.preview.PreviewParameter
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.google.samples.apps.nowinandroid.core.designsystem.component.DynamicAsyncImage
-import com.google.samples.apps.nowinandroid.core.designsystem.component.NiaBackground
-import com.google.samples.apps.nowinandroid.core.designsystem.component.NiaFilterChip
-import com.google.samples.apps.nowinandroid.core.designsystem.component.NiaLoadingWheel
-import com.google.samples.apps.nowinandroid.core.designsystem.component.scrollbar.DraggableScrollbar
-import com.google.samples.apps.nowinandroid.core.designsystem.component.scrollbar.rememberDraggableScroller
-import com.google.samples.apps.nowinandroid.core.designsystem.component.scrollbar.scrollbarState
-import com.google.samples.apps.nowinandroid.core.designsystem.icon.NiaIcons
-import com.google.samples.apps.nowinandroid.core.designsystem.theme.NiaTheme
-import com.google.samples.apps.nowinandroid.core.model.data.FollowableTopic
-import com.google.samples.apps.nowinandroid.core.model.data.UserNewsResource
-import com.google.samples.apps.nowinandroid.core.ui.DevicePreviews
-import com.google.samples.apps.nowinandroid.core.ui.TrackScreenViewEvent
-import com.google.samples.apps.nowinandroid.core.ui.TrackScrollJank
-import com.google.samples.apps.nowinandroid.core.ui.UserNewsResourcePreviewParameterProvider
-import com.google.samples.apps.nowinandroid.core.ui.userNewsResourceCardItems
-import com.google.samples.apps.nowinandroid.feature.topic.R.string
+import com.codemozo.travelneko.core.designsystem.component.DynamicAsyncImage
+import com.codemozo.travelneko.core.designsystem.component.NiaBackground
+import com.codemozo.travelneko.core.designsystem.component.NiaFilterChip
+import com.codemozo.travelneko.core.designsystem.component.NiaLoadingWheel
+import com.codemozo.travelneko.core.designsystem.component.scrollbar.DraggableScrollbar
+import com.codemozo.travelneko.core.designsystem.component.scrollbar.rememberDraggableScroller
+import com.codemozo.travelneko.core.designsystem.component.scrollbar.scrollbarState
+import com.codemozo.travelneko.core.designsystem.icon.NiaIcons
+import com.codemozo.travelneko.core.designsystem.theme.NiaTheme
+import com.codemozo.travelneko.core.model.data.FollowableTopic
+import com.codemozo.travelneko.core.model.data.UserNewsResource
+import com.codemozo.travelneko.core.ui.DevicePreviews
+import com.codemozo.travelneko.core.ui.TrackScreenViewEvent
+import com.codemozo.travelneko.core.ui.TrackScrollJank
+import com.codemozo.travelneko.core.ui.UserNewsResourcePreviewParameterProvider
+import com.codemozo.travelneko.core.ui.userNewsResourceCardItems
+import com.codemozo.travelneko.feature.topic.R.string
 
 @Composable
 fun TopicScreen(
@@ -292,7 +292,7 @@ private fun TopicToolbar(
                 Icon(
                     imageVector = NiaIcons.ArrowBack,
                     contentDescription = stringResource(
-                        id = com.google.samples.apps.nowinandroid.core.ui.R.string.core_ui_back,
+                        id = com.codemozo.travelneko.core.ui.R.string.core_ui_back,
                     ),
                 )
             }

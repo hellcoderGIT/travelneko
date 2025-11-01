@@ -16,12 +16,12 @@
 
 @file:Suppress("ktlint:standard:max-line-length")
 
-package com.google.samples.apps.nowinandroid.feature.search
+package com.codemozo.travelneko.feature.search
 
 import androidx.compose.ui.tooling.preview.PreviewParameterProvider
-import com.google.samples.apps.nowinandroid.core.model.data.FollowableTopic
-import com.google.samples.apps.nowinandroid.core.ui.PreviewParameterData.newsResources
-import com.google.samples.apps.nowinandroid.core.ui.PreviewParameterData.topics
+import com.codemozo.travelneko.core.model.data.FollowableTopic
+import com.codemozo.travelneko.core.ui.PreviewParameterData.newsResources
+import com.codemozo.travelneko.core.ui.PreviewParameterData.topics
 
 /**
  * This [PreviewParameterProvider](https://developer.android.com/reference/kotlin/androidx/compose/ui/tooling/preview/PreviewParameterProvider)

@@ -21,7 +21,7 @@ plugins {
 }
 
 android {
-    namespace = "com.google.samples.apps.nowinandroid.feature.settings"
+    namespace = "com.codemozo.travelneko.feature.settings"
 }
 
 dependencies {

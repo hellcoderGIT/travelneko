@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.interests
+package com.codemozo.travelneko.interests
 
 import androidx.lifecycle.SavedStateHandle
 import androidx.navigation.testing.invoke
-import com.google.samples.apps.nowinandroid.core.domain.GetFollowableTopicsUseCase
-import com.google.samples.apps.nowinandroid.core.model.data.FollowableTopic
-import com.google.samples.apps.nowinandroid.core.model.data.Topic
-import com.google.samples.apps.nowinandroid.core.testing.repository.TestTopicsRepository
-import com.google.samples.apps.nowinandroid.core.testing.repository.TestUserDataRepository
-import com.google.samples.apps.nowinandroid.core.testing.util.MainDispatcherRule
-import com.google.samples.apps.nowinandroid.feature.interests.InterestsUiState
-import com.google.samples.apps.nowinandroid.feature.interests.InterestsViewModel
-import com.google.samples.apps.nowinandroid.feature.interests.navigation.InterestsRoute
+import com.codemozo.travelneko.core.domain.GetFollowableTopicsUseCase
+import com.codemozo.travelneko.core.model.data.FollowableTopic
+import com.codemozo.travelneko.core.model.data.Topic
+import com.codemozo.travelneko.core.testing.repository.TestTopicsRepository
+import com.codemozo.travelneko.core.testing.repository.TestUserDataRepository
+import com.codemozo.travelneko.core.testing.util.MainDispatcherRule
+import com.codemozo.travelneko.feature.interests.InterestsUiState
+import com.codemozo.travelneko.feature.interests.InterestsViewModel
+import com.codemozo.travelneko.feature.interests.navigation.InterestsRoute
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.test.UnconfinedTestDispatcher

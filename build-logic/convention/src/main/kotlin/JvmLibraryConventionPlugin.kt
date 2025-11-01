@@ -14,8 +14,8 @@
  *   limitations under the License.
  */
 
-import com.google.samples.apps.nowinandroid.configureKotlinJvm
-import com.google.samples.apps.nowinandroid.libs
+import com.codemozo.travelneko.configureKotlinJvm
+import com.codemozo.travelneko.libs
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.kotlin.dsl.apply

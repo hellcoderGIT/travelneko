@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.testing.util
+package com.codemozo.travelneko.core.testing.util
 
-import com.google.samples.apps.nowinandroid.core.data.util.NetworkMonitor
+import com.codemozo.travelneko.core.data.util.NetworkMonitor
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 

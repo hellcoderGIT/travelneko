@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.feature.settings
+package com.codemozo.travelneko.feature.settings
 
-import com.google.samples.apps.nowinandroid.core.model.data.DarkThemeConfig.DARK
-import com.google.samples.apps.nowinandroid.core.model.data.ThemeBrand.ANDROID
-import com.google.samples.apps.nowinandroid.core.testing.repository.TestUserDataRepository
-import com.google.samples.apps.nowinandroid.core.testing.util.MainDispatcherRule
-import com.google.samples.apps.nowinandroid.feature.settings.SettingsUiState.Loading
-import com.google.samples.apps.nowinandroid.feature.settings.SettingsUiState.Success
+import com.codemozo.travelneko.core.model.data.DarkThemeConfig.DARK
+import com.codemozo.travelneko.core.model.data.ThemeBrand.ANDROID
+import com.codemozo.travelneko.core.testing.repository.TestUserDataRepository
+import com.codemozo.travelneko.core.testing.util.MainDispatcherRule
+import com.codemozo.travelneko.feature.settings.SettingsUiState.Loading
+import com.codemozo.travelneko.feature.settings.SettingsUiState.Success
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.test.UnconfinedTestDispatcher

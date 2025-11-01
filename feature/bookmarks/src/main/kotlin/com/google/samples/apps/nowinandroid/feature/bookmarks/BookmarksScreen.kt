@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.feature.bookmarks
+package com.codemozo.travelneko.feature.bookmarks
 
 import androidx.annotation.VisibleForTesting
 import androidx.compose.foundation.Image
@@ -60,20 +60,20 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.google.samples.apps.nowinandroid.core.designsystem.component.NiaLoadingWheel
-import com.google.samples.apps.nowinandroid.core.designsystem.component.scrollbar.DraggableScrollbar
-import com.google.samples.apps.nowinandroid.core.designsystem.component.scrollbar.rememberDraggableScroller
-import com.google.samples.apps.nowinandroid.core.designsystem.component.scrollbar.scrollbarState
-import com.google.samples.apps.nowinandroid.core.designsystem.theme.LocalTintTheme
-import com.google.samples.apps.nowinandroid.core.designsystem.theme.NiaTheme
-import com.google.samples.apps.nowinandroid.core.model.data.UserNewsResource
-import com.google.samples.apps.nowinandroid.core.ui.NewsFeedUiState
-import com.google.samples.apps.nowinandroid.core.ui.NewsFeedUiState.Loading
-import com.google.samples.apps.nowinandroid.core.ui.NewsFeedUiState.Success
-import com.google.samples.apps.nowinandroid.core.ui.TrackScreenViewEvent
-import com.google.samples.apps.nowinandroid.core.ui.TrackScrollJank
-import com.google.samples.apps.nowinandroid.core.ui.UserNewsResourcePreviewParameterProvider
-import com.google.samples.apps.nowinandroid.core.ui.newsFeed
+import com.codemozo.travelneko.core.designsystem.component.NiaLoadingWheel
+import com.codemozo.travelneko.core.designsystem.component.scrollbar.DraggableScrollbar
+import com.codemozo.travelneko.core.designsystem.component.scrollbar.rememberDraggableScroller
+import com.codemozo.travelneko.core.designsystem.component.scrollbar.scrollbarState
+import com.codemozo.travelneko.core.designsystem.theme.LocalTintTheme
+import com.codemozo.travelneko.core.designsystem.theme.NiaTheme
+import com.codemozo.travelneko.core.model.data.UserNewsResource
+import com.codemozo.travelneko.core.ui.NewsFeedUiState
+import com.codemozo.travelneko.core.ui.NewsFeedUiState.Loading
+import com.codemozo.travelneko.core.ui.NewsFeedUiState.Success
+import com.codemozo.travelneko.core.ui.TrackScreenViewEvent
+import com.codemozo.travelneko.core.ui.TrackScrollJank
+import com.codemozo.travelneko.core.ui.UserNewsResourcePreviewParameterProvider
+import com.codemozo.travelneko.core.ui.newsFeed
 
 @Composable
 internal fun BookmarksRoute(

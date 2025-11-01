@@ -15,8 +15,8 @@
  */
 
 import com.android.build.api.dsl.LibraryExtension
-import com.google.samples.apps.nowinandroid.configureGradleManagedDevices
-import com.google.samples.apps.nowinandroid.libs
+import com.codemozo.travelneko.configureGradleManagedDevices
+import com.codemozo.travelneko.libs
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.kotlin.dsl.apply

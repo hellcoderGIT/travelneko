@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.designsystem.theme
+package com.codemozo.travelneko.core.designsystem.theme
 
 import androidx.compose.ui.graphics.Color
 

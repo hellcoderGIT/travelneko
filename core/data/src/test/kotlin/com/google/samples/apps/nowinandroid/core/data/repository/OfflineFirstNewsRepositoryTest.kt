@@ -14,31 +14,31 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.data.repository
+package com.codemozo.travelneko.core.data.repository
 
-import com.google.samples.apps.nowinandroid.core.data.Synchronizer
-import com.google.samples.apps.nowinandroid.core.data.model.asEntity
-import com.google.samples.apps.nowinandroid.core.data.model.topicCrossReferences
-import com.google.samples.apps.nowinandroid.core.data.model.topicEntityShells
-import com.google.samples.apps.nowinandroid.core.data.testdoubles.CollectionType
-import com.google.samples.apps.nowinandroid.core.data.testdoubles.TestNewsResourceDao
-import com.google.samples.apps.nowinandroid.core.data.testdoubles.TestNiaNetworkDataSource
-import com.google.samples.apps.nowinandroid.core.data.testdoubles.TestTopicDao
-import com.google.samples.apps.nowinandroid.core.data.testdoubles.filteredInterestsIds
-import com.google.samples.apps.nowinandroid.core.data.testdoubles.nonPresentInterestsIds
-import com.google.samples.apps.nowinandroid.core.database.model.NewsResourceEntity
-import com.google.samples.apps.nowinandroid.core.database.model.NewsResourceTopicCrossRef
-import com.google.samples.apps.nowinandroid.core.database.model.PopulatedNewsResource
-import com.google.samples.apps.nowinandroid.core.database.model.TopicEntity
-import com.google.samples.apps.nowinandroid.core.database.model.asExternalModel
-import com.google.samples.apps.nowinandroid.core.datastore.NiaPreferencesDataSource
-import com.google.samples.apps.nowinandroid.core.datastore.UserPreferences
-import com.google.samples.apps.nowinandroid.core.datastore.test.InMemoryDataStore
-import com.google.samples.apps.nowinandroid.core.model.data.NewsResource
-import com.google.samples.apps.nowinandroid.core.model.data.Topic
-import com.google.samples.apps.nowinandroid.core.network.model.NetworkChangeList
-import com.google.samples.apps.nowinandroid.core.network.model.NetworkNewsResource
-import com.google.samples.apps.nowinandroid.core.testing.notifications.TestNotifier
+import com.codemozo.travelneko.core.data.Synchronizer
+import com.codemozo.travelneko.core.data.model.asEntity
+import com.codemozo.travelneko.core.data.model.topicCrossReferences
+import com.codemozo.travelneko.core.data.model.topicEntityShells
+import com.codemozo.travelneko.core.data.testdoubles.CollectionType
+import com.codemozo.travelneko.core.data.testdoubles.TestNewsResourceDao
+import com.codemozo.travelneko.core.data.testdoubles.TestNiaNetworkDataSource
+import com.codemozo.travelneko.core.data.testdoubles.TestTopicDao
+import com.codemozo.travelneko.core.data.testdoubles.filteredInterestsIds
+import com.codemozo.travelneko.core.data.testdoubles.nonPresentInterestsIds
+import com.codemozo.travelneko.core.database.model.NewsResourceEntity
+import com.codemozo.travelneko.core.database.model.NewsResourceTopicCrossRef
+import com.codemozo.travelneko.core.database.model.PopulatedNewsResource
+import com.codemozo.travelneko.core.database.model.TopicEntity
+import com.codemozo.travelneko.core.database.model.asExternalModel
+import com.codemozo.travelneko.core.datastore.NiaPreferencesDataSource
+import com.codemozo.travelneko.core.datastore.UserPreferences
+import com.codemozo.travelneko.core.datastore.test.InMemoryDataStore
+import com.codemozo.travelneko.core.model.data.NewsResource
+import com.codemozo.travelneko.core.model.data.Topic
+import com.codemozo.travelneko.core.network.model.NetworkChangeList
+import com.codemozo.travelneko.core.network.model.NetworkNewsResource
+import com.codemozo.travelneko.core.testing.notifications.TestNotifier
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.test.TestScope
 import kotlinx.coroutines.test.UnconfinedTestDispatcher

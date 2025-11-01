@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.notifications
+package com.codemozo.travelneko.core.notifications
 
-import com.google.samples.apps.nowinandroid.core.model.data.NewsResource
+import com.codemozo.travelneko.core.model.data.NewsResource
 
 /**
  * Interface for creating notifications in the app

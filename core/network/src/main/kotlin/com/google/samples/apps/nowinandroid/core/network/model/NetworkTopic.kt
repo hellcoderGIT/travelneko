@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.network.model
+package com.codemozo.travelneko.core.network.model
 
-import com.google.samples.apps.nowinandroid.core.model.data.Topic
+import com.codemozo.travelneko.core.model.data.Topic
 import kotlinx.serialization.Serializable
 
 /**

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid
+package com.codemozo.travelneko
 
 import com.android.utils.associateWithNotNull
-import com.google.samples.apps.nowinandroid.PluginType.Unknown
+import com.codemozo.travelneko.PluginType.Unknown
 import org.gradle.api.DefaultTask
 import org.gradle.api.Project
 import org.gradle.api.artifacts.Configuration

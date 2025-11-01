@@ -1,4 +1,4 @@
-package com.google.samples.apps.nowinandroid
+package com.codemozo.travelneko
 
 import com.android.build.api.dsl.ApplicationExtension
 import com.android.build.api.dsl.ApplicationProductFlavor

@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.foryou
+package com.codemozo.travelneko.foryou
 
 import androidx.benchmark.macro.MacrobenchmarkScope
 import androidx.test.uiautomator.By
 import androidx.test.uiautomator.Until
 import androidx.test.uiautomator.untilHasChildren
-import com.google.samples.apps.nowinandroid.flingElementDownUp
-import com.google.samples.apps.nowinandroid.waitAndFindObject
-import com.google.samples.apps.nowinandroid.waitForObjectOnTopAppBar
+import com.codemozo.travelneko.flingElementDownUp
+import com.codemozo.travelneko.waitAndFindObject
+import com.codemozo.travelneko.waitForObjectOnTopAppBar
 import org.junit.Assert.fail
 
 fun MacrobenchmarkScope.forYouWaitForContent() {

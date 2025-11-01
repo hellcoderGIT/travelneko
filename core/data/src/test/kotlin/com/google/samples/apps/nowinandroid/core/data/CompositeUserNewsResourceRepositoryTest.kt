@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.data
+package com.codemozo.travelneko.core.data
 
-import com.google.samples.apps.nowinandroid.core.data.repository.CompositeUserNewsResourceRepository
-import com.google.samples.apps.nowinandroid.core.data.repository.NewsResourceQuery
-import com.google.samples.apps.nowinandroid.core.model.data.NewsResource
-import com.google.samples.apps.nowinandroid.core.model.data.Topic
-import com.google.samples.apps.nowinandroid.core.model.data.mapToUserNewsResources
-import com.google.samples.apps.nowinandroid.core.testing.repository.TestNewsRepository
-import com.google.samples.apps.nowinandroid.core.testing.repository.TestUserDataRepository
-import com.google.samples.apps.nowinandroid.core.testing.repository.emptyUserData
+import com.codemozo.travelneko.core.data.repository.CompositeUserNewsResourceRepository
+import com.codemozo.travelneko.core.data.repository.NewsResourceQuery
+import com.codemozo.travelneko.core.model.data.NewsResource
+import com.codemozo.travelneko.core.model.data.Topic
+import com.codemozo.travelneko.core.model.data.mapToUserNewsResources
+import com.codemozo.travelneko.core.testing.repository.TestNewsRepository
+import com.codemozo.travelneko.core.testing.repository.TestUserDataRepository
+import com.codemozo.travelneko.core.testing.repository.emptyUserData
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.test.runTest
 import kotlinx.datetime.Instant

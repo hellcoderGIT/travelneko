@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.feature.bookmarks
+package com.codemozo.travelneko.feature.bookmarks
 
 import androidx.activity.ComponentActivity
 import androidx.compose.runtime.CompositionLocalProvider
@@ -34,8 +34,8 @@ import androidx.compose.ui.test.performScrollToNode
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.LocalLifecycleOwner
 import androidx.lifecycle.testing.TestLifecycleOwner
-import com.google.samples.apps.nowinandroid.core.testing.data.userNewsResourcesTestData
-import com.google.samples.apps.nowinandroid.core.ui.NewsFeedUiState
+import com.codemozo.travelneko.core.testing.data.userNewsResourcesTestData
+import com.codemozo.travelneko.core.ui.NewsFeedUiState
 import kotlinx.coroutines.test.runTest
 import org.junit.Rule
 import org.junit.Test
@@ -130,7 +130,7 @@ class BookmarksScreenTest {
         composeTestRule
             .onAllNodesWithContentDescription(
                 composeTestRule.activity.getString(
-                    com.google.samples.apps.nowinandroid.core.ui.R.string.core_ui_unbookmark,
+                    com.codemozo.travelneko.core.ui.R.string.core_ui_unbookmark,
                 ),
             ).filter(
                 hasAnyAncestor(

@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.feature.foryou
+package com.codemozo.travelneko.feature.foryou
 
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.google.samples.apps.nowinandroid.core.analytics.AnalyticsEvent
-import com.google.samples.apps.nowinandroid.core.analytics.AnalyticsEvent.Param
-import com.google.samples.apps.nowinandroid.core.analytics.AnalyticsHelper
-import com.google.samples.apps.nowinandroid.core.data.repository.NewsResourceQuery
-import com.google.samples.apps.nowinandroid.core.data.repository.UserDataRepository
-import com.google.samples.apps.nowinandroid.core.data.repository.UserNewsResourceRepository
-import com.google.samples.apps.nowinandroid.core.data.util.SyncManager
-import com.google.samples.apps.nowinandroid.core.domain.GetFollowableTopicsUseCase
-import com.google.samples.apps.nowinandroid.core.notifications.DEEP_LINK_NEWS_RESOURCE_ID_KEY
-import com.google.samples.apps.nowinandroid.core.ui.NewsFeedUiState
+import com.codemozo.travelneko.core.analytics.AnalyticsEvent
+import com.codemozo.travelneko.core.analytics.AnalyticsEvent.Param
+import com.codemozo.travelneko.core.analytics.AnalyticsHelper
+import com.codemozo.travelneko.core.data.repository.NewsResourceQuery
+import com.codemozo.travelneko.core.data.repository.UserDataRepository
+import com.codemozo.travelneko.core.data.repository.UserNewsResourceRepository
+import com.codemozo.travelneko.core.data.util.SyncManager
+import com.codemozo.travelneko.core.domain.GetFollowableTopicsUseCase
+import com.codemozo.travelneko.core.notifications.DEEP_LINK_NEWS_RESOURCE_ID_KEY
+import com.codemozo.travelneko.core.ui.NewsFeedUiState
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.SharingStarted

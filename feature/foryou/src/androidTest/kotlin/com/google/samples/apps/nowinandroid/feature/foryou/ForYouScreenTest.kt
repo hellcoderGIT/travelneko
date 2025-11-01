@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.feature.foryou
+package com.codemozo.travelneko.feature.foryou
 
 import androidx.activity.ComponentActivity
 import androidx.compose.foundation.layout.Box
@@ -28,10 +28,10 @@ import androidx.compose.ui.test.onFirst
 import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performScrollToNode
-import com.google.samples.apps.nowinandroid.core.rules.GrantPostNotificationsPermissionRule
-import com.google.samples.apps.nowinandroid.core.testing.data.followableTopicTestData
-import com.google.samples.apps.nowinandroid.core.testing.data.userNewsResourcesTestData
-import com.google.samples.apps.nowinandroid.core.ui.NewsFeedUiState
+import com.codemozo.travelneko.core.rules.GrantPostNotificationsPermissionRule
+import com.codemozo.travelneko.core.testing.data.followableTopicTestData
+import com.codemozo.travelneko.core.testing.data.userNewsResourcesTestData
+import com.codemozo.travelneko.core.ui.NewsFeedUiState
 import org.junit.Rule
 import org.junit.Test
 

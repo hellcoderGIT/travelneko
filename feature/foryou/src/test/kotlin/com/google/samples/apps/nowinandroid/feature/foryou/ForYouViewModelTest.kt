@@ -14,27 +14,27 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.feature.foryou
+package com.codemozo.travelneko.feature.foryou
 
 import androidx.lifecycle.SavedStateHandle
-import com.google.samples.apps.nowinandroid.core.analytics.AnalyticsEvent
-import com.google.samples.apps.nowinandroid.core.analytics.AnalyticsEvent.Param
-import com.google.samples.apps.nowinandroid.core.data.repository.CompositeUserNewsResourceRepository
-import com.google.samples.apps.nowinandroid.core.domain.GetFollowableTopicsUseCase
-import com.google.samples.apps.nowinandroid.core.model.data.FollowableTopic
-import com.google.samples.apps.nowinandroid.core.model.data.NewsResource
-import com.google.samples.apps.nowinandroid.core.model.data.Topic
-import com.google.samples.apps.nowinandroid.core.model.data.UserNewsResource
-import com.google.samples.apps.nowinandroid.core.model.data.mapToUserNewsResources
-import com.google.samples.apps.nowinandroid.core.notifications.DEEP_LINK_NEWS_RESOURCE_ID_KEY
-import com.google.samples.apps.nowinandroid.core.testing.repository.TestNewsRepository
-import com.google.samples.apps.nowinandroid.core.testing.repository.TestTopicsRepository
-import com.google.samples.apps.nowinandroid.core.testing.repository.TestUserDataRepository
-import com.google.samples.apps.nowinandroid.core.testing.repository.emptyUserData
-import com.google.samples.apps.nowinandroid.core.testing.util.MainDispatcherRule
-import com.google.samples.apps.nowinandroid.core.testing.util.TestAnalyticsHelper
-import com.google.samples.apps.nowinandroid.core.testing.util.TestSyncManager
-import com.google.samples.apps.nowinandroid.core.ui.NewsFeedUiState
+import com.codemozo.travelneko.core.analytics.AnalyticsEvent
+import com.codemozo.travelneko.core.analytics.AnalyticsEvent.Param
+import com.codemozo.travelneko.core.data.repository.CompositeUserNewsResourceRepository
+import com.codemozo.travelneko.core.domain.GetFollowableTopicsUseCase
+import com.codemozo.travelneko.core.model.data.FollowableTopic
+import com.codemozo.travelneko.core.model.data.NewsResource
+import com.codemozo.travelneko.core.model.data.Topic
+import com.codemozo.travelneko.core.model.data.UserNewsResource
+import com.codemozo.travelneko.core.model.data.mapToUserNewsResources
+import com.codemozo.travelneko.core.notifications.DEEP_LINK_NEWS_RESOURCE_ID_KEY
+import com.codemozo.travelneko.core.testing.repository.TestNewsRepository
+import com.codemozo.travelneko.core.testing.repository.TestTopicsRepository
+import com.codemozo.travelneko.core.testing.repository.TestUserDataRepository
+import com.codemozo.travelneko.core.testing.repository.emptyUserData
+import com.codemozo.travelneko.core.testing.util.MainDispatcherRule
+import com.codemozo.travelneko.core.testing.util.TestAnalyticsHelper
+import com.codemozo.travelneko.core.testing.util.TestSyncManager
+import com.codemozo.travelneko.core.ui.NewsFeedUiState
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch

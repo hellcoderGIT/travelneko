@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.data.test.repository
+package com.codemozo.travelneko.core.data.test.repository
 
-import com.google.samples.apps.nowinandroid.core.data.repository.UserDataRepository
-import com.google.samples.apps.nowinandroid.core.datastore.NiaPreferencesDataSource
-import com.google.samples.apps.nowinandroid.core.model.data.DarkThemeConfig
-import com.google.samples.apps.nowinandroid.core.model.data.ThemeBrand
-import com.google.samples.apps.nowinandroid.core.model.data.UserData
+import com.codemozo.travelneko.core.data.repository.UserDataRepository
+import com.codemozo.travelneko.core.datastore.NiaPreferencesDataSource
+import com.codemozo.travelneko.core.model.data.DarkThemeConfig
+import com.codemozo.travelneko.core.model.data.ThemeBrand
+import com.codemozo.travelneko.core.model.data.UserData
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 

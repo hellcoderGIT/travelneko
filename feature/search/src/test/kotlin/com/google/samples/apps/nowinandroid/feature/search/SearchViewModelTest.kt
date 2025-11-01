@@ -14,23 +14,23 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.feature.search
+package com.codemozo.travelneko.feature.search
 
 import androidx.lifecycle.SavedStateHandle
-import com.google.samples.apps.nowinandroid.core.analytics.NoOpAnalyticsHelper
-import com.google.samples.apps.nowinandroid.core.domain.GetRecentSearchQueriesUseCase
-import com.google.samples.apps.nowinandroid.core.domain.GetSearchContentsUseCase
-import com.google.samples.apps.nowinandroid.core.testing.data.newsResourcesTestData
-import com.google.samples.apps.nowinandroid.core.testing.data.topicsTestData
-import com.google.samples.apps.nowinandroid.core.testing.repository.TestRecentSearchRepository
-import com.google.samples.apps.nowinandroid.core.testing.repository.TestSearchContentsRepository
-import com.google.samples.apps.nowinandroid.core.testing.repository.TestUserDataRepository
-import com.google.samples.apps.nowinandroid.core.testing.repository.emptyUserData
-import com.google.samples.apps.nowinandroid.core.testing.util.MainDispatcherRule
-import com.google.samples.apps.nowinandroid.feature.search.RecentSearchQueriesUiState.Success
-import com.google.samples.apps.nowinandroid.feature.search.SearchResultUiState.EmptyQuery
-import com.google.samples.apps.nowinandroid.feature.search.SearchResultUiState.Loading
-import com.google.samples.apps.nowinandroid.feature.search.SearchResultUiState.SearchNotReady
+import com.codemozo.travelneko.core.analytics.NoOpAnalyticsHelper
+import com.codemozo.travelneko.core.domain.GetRecentSearchQueriesUseCase
+import com.codemozo.travelneko.core.domain.GetSearchContentsUseCase
+import com.codemozo.travelneko.core.testing.data.newsResourcesTestData
+import com.codemozo.travelneko.core.testing.data.topicsTestData
+import com.codemozo.travelneko.core.testing.repository.TestRecentSearchRepository
+import com.codemozo.travelneko.core.testing.repository.TestSearchContentsRepository
+import com.codemozo.travelneko.core.testing.repository.TestUserDataRepository
+import com.codemozo.travelneko.core.testing.repository.emptyUserData
+import com.codemozo.travelneko.core.testing.util.MainDispatcherRule
+import com.codemozo.travelneko.feature.search.RecentSearchQueriesUiState.Success
+import com.codemozo.travelneko.feature.search.SearchResultUiState.EmptyQuery
+import com.codemozo.travelneko.feature.search.SearchResultUiState.Loading
+import com.codemozo.travelneko.feature.search.SearchResultUiState.SearchNotReady
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch

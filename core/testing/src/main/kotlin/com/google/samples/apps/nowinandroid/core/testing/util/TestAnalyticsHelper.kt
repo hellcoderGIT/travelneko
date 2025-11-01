@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.testing.util
+package com.codemozo.travelneko.core.testing.util
 
-import com.google.samples.apps.nowinandroid.core.analytics.AnalyticsEvent
-import com.google.samples.apps.nowinandroid.core.analytics.AnalyticsHelper
+import com.codemozo.travelneko.core.analytics.AnalyticsEvent
+import com.codemozo.travelneko.core.analytics.AnalyticsHelper
 
 class TestAnalyticsHelper : AnalyticsHelper {
 

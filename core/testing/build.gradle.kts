@@ -19,7 +19,7 @@ plugins {
 }
 
 android {
-    namespace = "com.google.samples.apps.nowinandroid.core.testing"
+    namespace = "com.codemozo.travelneko.core.testing"
 }
 
 dependencies {

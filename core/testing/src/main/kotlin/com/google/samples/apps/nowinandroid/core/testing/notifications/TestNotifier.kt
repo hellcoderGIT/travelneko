@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.testing.notifications
+package com.codemozo.travelneko.core.testing.notifications
 
-import com.google.samples.apps.nowinandroid.core.model.data.NewsResource
-import com.google.samples.apps.nowinandroid.core.notifications.Notifier
+import com.codemozo.travelneko.core.model.data.NewsResource
+import com.codemozo.travelneko.core.notifications.Notifier
 
 /**
  * Aggregates news resources that have been notified for addition

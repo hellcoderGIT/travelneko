@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.lint
+package com.codemozo.travelneko.lint
 
 import com.android.tools.lint.checks.infrastructure.TestFile
 import com.android.tools.lint.checks.infrastructure.TestFiles.kotlin
 import com.android.tools.lint.checks.infrastructure.TestLintTask.lint
-import com.google.samples.apps.nowinandroid.lint.TestMethodNameDetector.Companion.FORMAT
-import com.google.samples.apps.nowinandroid.lint.TestMethodNameDetector.Companion.PREFIX
+import com.codemozo.travelneko.lint.TestMethodNameDetector.Companion.FORMAT
+import com.codemozo.travelneko.lint.TestMethodNameDetector.Companion.PREFIX
 import org.junit.Test
 
 class TestMethodNameDetectorTest {

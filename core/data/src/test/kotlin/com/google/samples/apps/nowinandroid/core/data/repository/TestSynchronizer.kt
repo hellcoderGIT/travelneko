@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.data.repository
+package com.codemozo.travelneko.core.data.repository
 
-import com.google.samples.apps.nowinandroid.core.data.Synchronizer
-import com.google.samples.apps.nowinandroid.core.datastore.ChangeListVersions
-import com.google.samples.apps.nowinandroid.core.datastore.NiaPreferencesDataSource
+import com.codemozo.travelneko.core.data.Synchronizer
+import com.codemozo.travelneko.core.datastore.ChangeListVersions
+import com.codemozo.travelneko.core.datastore.NiaPreferencesDataSource
 
 /**
  * Test synchronizer that delegates to [NiaPreferencesDataSource]

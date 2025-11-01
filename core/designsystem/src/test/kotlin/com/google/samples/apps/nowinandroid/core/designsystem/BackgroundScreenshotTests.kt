@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.designsystem
+package com.codemozo.travelneko.core.designsystem
 
 import androidx.activity.ComponentActivity
 import androidx.compose.foundation.layout.size
@@ -22,9 +22,9 @@ import androidx.compose.material3.Text
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.test.junit4.createAndroidComposeRule
 import androidx.compose.ui.unit.dp
-import com.google.samples.apps.nowinandroid.core.designsystem.component.NiaBackground
-import com.google.samples.apps.nowinandroid.core.designsystem.component.NiaGradientBackground
-import com.google.samples.apps.nowinandroid.core.testing.util.captureMultiTheme
+import com.codemozo.travelneko.core.designsystem.component.NiaBackground
+import com.codemozo.travelneko.core.designsystem.component.NiaGradientBackground
+import com.codemozo.travelneko.core.testing.util.captureMultiTheme
 import dagger.hilt.android.testing.HiltTestApplication
 import org.junit.Rule
 import org.junit.Test

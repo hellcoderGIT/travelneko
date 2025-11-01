@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.feature.search
+package com.codemozo.travelneko.feature.search
 
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.google.samples.apps.nowinandroid.core.analytics.AnalyticsEvent
-import com.google.samples.apps.nowinandroid.core.analytics.AnalyticsEvent.Param
-import com.google.samples.apps.nowinandroid.core.analytics.AnalyticsHelper
-import com.google.samples.apps.nowinandroid.core.data.repository.RecentSearchRepository
-import com.google.samples.apps.nowinandroid.core.data.repository.SearchContentsRepository
-import com.google.samples.apps.nowinandroid.core.data.repository.UserDataRepository
-import com.google.samples.apps.nowinandroid.core.domain.GetRecentSearchQueriesUseCase
-import com.google.samples.apps.nowinandroid.core.domain.GetSearchContentsUseCase
-import com.google.samples.apps.nowinandroid.core.model.data.UserSearchResult
+import com.codemozo.travelneko.core.analytics.AnalyticsEvent
+import com.codemozo.travelneko.core.analytics.AnalyticsEvent.Param
+import com.codemozo.travelneko.core.analytics.AnalyticsHelper
+import com.codemozo.travelneko.core.data.repository.RecentSearchRepository
+import com.codemozo.travelneko.core.data.repository.SearchContentsRepository
+import com.codemozo.travelneko.core.data.repository.UserDataRepository
+import com.codemozo.travelneko.core.domain.GetRecentSearchQueriesUseCase
+import com.codemozo.travelneko.core.domain.GetSearchContentsUseCase
+import com.codemozo.travelneko.core.model.data.UserSearchResult
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow

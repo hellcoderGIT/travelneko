@@ -21,7 +21,7 @@ plugins {
 }
 
 android {
-    namespace = "com.google.samples.apps.nowinandroid.core.designsystem"
+    namespace = "com.codemozo.travelneko.core.designsystem"
     testOptions.unitTests.isIncludeAndroidResources = true
 }
 

@@ -16,10 +16,10 @@
 
 @file:Suppress("ktlint:standard:max-line-length")
 
-package com.google.samples.apps.nowinandroid.core.testing.data
+package com.codemozo.travelneko.core.testing.data
 
-import com.google.samples.apps.nowinandroid.core.model.data.FollowableTopic
-import com.google.samples.apps.nowinandroid.core.model.data.Topic
+import com.codemozo.travelneko.core.model.data.FollowableTopic
+import com.codemozo.travelneko.core.model.data.Topic
 
 val followableTopicTestData: List<FollowableTopic> = listOf(
     FollowableTopic(

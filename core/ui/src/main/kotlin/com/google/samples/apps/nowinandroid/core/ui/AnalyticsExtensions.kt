@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.ui
+package com.codemozo.travelneko.core.ui
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
-import com.google.samples.apps.nowinandroid.core.analytics.AnalyticsEvent
-import com.google.samples.apps.nowinandroid.core.analytics.AnalyticsEvent.Param
-import com.google.samples.apps.nowinandroid.core.analytics.AnalyticsEvent.ParamKeys
-import com.google.samples.apps.nowinandroid.core.analytics.AnalyticsEvent.Types
-import com.google.samples.apps.nowinandroid.core.analytics.AnalyticsHelper
-import com.google.samples.apps.nowinandroid.core.analytics.LocalAnalyticsHelper
+import com.codemozo.travelneko.core.analytics.AnalyticsEvent
+import com.codemozo.travelneko.core.analytics.AnalyticsEvent.Param
+import com.codemozo.travelneko.core.analytics.AnalyticsEvent.ParamKeys
+import com.codemozo.travelneko.core.analytics.AnalyticsEvent.Types
+import com.codemozo.travelneko.core.analytics.AnalyticsHelper
+import com.codemozo.travelneko.core.analytics.LocalAnalyticsHelper
 
 /**
  * Classes and functions associated with analytics events for the UI.

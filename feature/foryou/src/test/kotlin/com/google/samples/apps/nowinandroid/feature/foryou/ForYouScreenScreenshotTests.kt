@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.feature.foryou
+package com.codemozo.travelneko.feature.foryou
 
 import androidx.activity.ComponentActivity
 import androidx.compose.runtime.Composable
@@ -23,17 +23,17 @@ import com.google.android.apps.common.testing.accessibility.framework.Accessibil
 import com.google.android.apps.common.testing.accessibility.framework.AccessibilityCheckResultUtils.matchesElements
 import com.google.android.apps.common.testing.accessibility.framework.checks.TextContrastCheck
 import com.google.android.apps.common.testing.accessibility.framework.matcher.ElementMatchers.withText
-import com.google.samples.apps.nowinandroid.core.designsystem.component.NiaBackground
-import com.google.samples.apps.nowinandroid.core.designsystem.theme.NiaTheme
-import com.google.samples.apps.nowinandroid.core.testing.util.DefaultTestDevices
-import com.google.samples.apps.nowinandroid.core.testing.util.captureForDevice
-import com.google.samples.apps.nowinandroid.core.testing.util.captureMultiDevice
-import com.google.samples.apps.nowinandroid.core.ui.NewsFeedUiState
-import com.google.samples.apps.nowinandroid.core.ui.NewsFeedUiState.Success
-import com.google.samples.apps.nowinandroid.core.ui.UserNewsResourcePreviewParameterProvider
-import com.google.samples.apps.nowinandroid.feature.foryou.OnboardingUiState.Loading
-import com.google.samples.apps.nowinandroid.feature.foryou.OnboardingUiState.NotShown
-import com.google.samples.apps.nowinandroid.feature.foryou.OnboardingUiState.Shown
+import com.codemozo.travelneko.core.designsystem.component.NiaBackground
+import com.codemozo.travelneko.core.designsystem.theme.NiaTheme
+import com.codemozo.travelneko.core.testing.util.DefaultTestDevices
+import com.codemozo.travelneko.core.testing.util.captureForDevice
+import com.codemozo.travelneko.core.testing.util.captureMultiDevice
+import com.codemozo.travelneko.core.ui.NewsFeedUiState
+import com.codemozo.travelneko.core.ui.NewsFeedUiState.Success
+import com.codemozo.travelneko.core.ui.UserNewsResourcePreviewParameterProvider
+import com.codemozo.travelneko.feature.foryou.OnboardingUiState.Loading
+import com.codemozo.travelneko.feature.foryou.OnboardingUiState.NotShown
+import com.codemozo.travelneko.feature.foryou.OnboardingUiState.Shown
 import dagger.hilt.android.testing.HiltTestApplication
 import org.hamcrest.Matchers
 import org.junit.Before

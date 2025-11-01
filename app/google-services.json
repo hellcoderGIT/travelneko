@@ -1,15 +1,34 @@
 {
   "project_info": {
-    "project_number": "YourProjectId",
-    "project_id": "abc",
-    "storage_bucket": "abc"
+    "project_number": "1041301178357",
+    "project_id": "travel-neko",
+    "storage_bucket": "travel-neko.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:1041301178357:android:7f3d0f9a0eb250fa5202bc",
+        "android_client_info": {
+          "package_name": "com.codemozo.travelneko"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd6jXzB8EnkBwV5x7dK0EEQDvWc3lrPd4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "Your:App:Id",
         "android_client_info": {
-          "package_name": "com.google.samples.apps.nowinandroid"
+          "package_name": "com.codemozo.travelneko.demo.debug"
         }
       },
       "oauth_client": [],
@@ -28,7 +47,7 @@
       "client_info": {
         "mobilesdk_app_id": "Your:App:Id",
         "android_client_info": {
-          "package_name": "com.google.samples.apps.nowinandroid.demo.debug"
+          "package_name": "com.codemozo.travelneko.demo.benchmark"
         }
       },
       "oauth_client": [],
@@ -47,7 +66,7 @@
       "client_info": {
         "mobilesdk_app_id": "Your:App:Id",
         "android_client_info": {
-          "package_name": "com.google.samples.apps.nowinandroid.demo.benchmark"
+          "package_name": "com.codemozo.travelneko.benchmark"
         }
       },
       "oauth_client": [],
@@ -64,15 +83,15 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "Your:App:Id",
+        "mobilesdk_app_id": "1:1041301178357:android:caa9e665266832405202bc",
         "android_client_info": {
-          "package_name": "com.google.samples.apps.nowinandroid.benchmark"
+          "package_name": "com.codemozo.travelneko.debug"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "APlaceholderAPIKeyWith-ThirtyNineCharsX"
+          "current_key": "AIzaSyDd6jXzB8EnkBwV5x7dK0EEQDvWc3lrPd4"
         }
       ],
       "services": {
@@ -85,26 +104,7 @@
       "client_info": {
         "mobilesdk_app_id": "Your:App:Id",
         "android_client_info": {
-          "package_name": "com.google.samples.apps.nowinandroid.debug"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "APlaceholderAPIKeyWith-ThirtyNineCharsX"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "Your:App:Id",
-        "android_client_info": {
-          "package_name": "com.google.samples.apps.nowinandroid.demo"
+          "package_name": "com.codemozo.travelneko.demo"
         }
       },
       "oauth_client": [],

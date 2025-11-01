@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.testing.di
+package com.codemozo.travelneko.core.testing.di
 
-import com.google.samples.apps.nowinandroid.core.network.Dispatcher
-import com.google.samples.apps.nowinandroid.core.network.NiaDispatchers.Default
-import com.google.samples.apps.nowinandroid.core.network.NiaDispatchers.IO
-import com.google.samples.apps.nowinandroid.core.network.di.DispatchersModule
+import com.codemozo.travelneko.core.network.Dispatcher
+import com.codemozo.travelneko.core.network.NiaDispatchers.Default
+import com.codemozo.travelneko.core.network.NiaDispatchers.IO
+import com.codemozo.travelneko.core.network.di.DispatchersModule
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.components.SingletonComponent

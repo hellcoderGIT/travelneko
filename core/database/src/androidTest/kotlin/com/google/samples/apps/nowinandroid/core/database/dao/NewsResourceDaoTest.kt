@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.database.dao
+package com.codemozo.travelneko.core.database.dao
 
-import com.google.samples.apps.nowinandroid.core.database.model.NewsResourceEntity
-import com.google.samples.apps.nowinandroid.core.database.model.NewsResourceTopicCrossRef
-import com.google.samples.apps.nowinandroid.core.database.model.TopicEntity
-import com.google.samples.apps.nowinandroid.core.database.model.asExternalModel
+import com.codemozo.travelneko.core.database.model.NewsResourceEntity
+import com.codemozo.travelneko.core.database.model.NewsResourceTopicCrossRef
+import com.codemozo.travelneko.core.database.model.TopicEntity
+import com.codemozo.travelneko.core.database.model.asExternalModel
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.test.runTest
 import kotlinx.datetime.Instant

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.sync.status
+package com.codemozo.travelneko.sync.status
 
 import com.google.firebase.messaging.FirebaseMessaging
-import com.google.samples.apps.nowinandroid.sync.initializers.SYNC_TOPIC
+import com.codemozo.travelneko.sync.initializers.SYNC_TOPIC
 import kotlinx.coroutines.tasks.await
 import javax.inject.Inject
 

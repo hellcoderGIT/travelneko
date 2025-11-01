@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.interests
+package com.codemozo.travelneko.interests
 
 import androidx.benchmark.macro.MacrobenchmarkScope
 import androidx.test.uiautomator.By
 import androidx.test.uiautomator.Until
-import com.google.samples.apps.nowinandroid.flingElementDownUp
-import com.google.samples.apps.nowinandroid.waitForObjectOnTopAppBar
+import com.codemozo.travelneko.flingElementDownUp
+import com.codemozo.travelneko.waitForObjectOnTopAppBar
 
 fun MacrobenchmarkScope.goToInterestsScreen() {
     device.findObject(By.text("Interests")).click()

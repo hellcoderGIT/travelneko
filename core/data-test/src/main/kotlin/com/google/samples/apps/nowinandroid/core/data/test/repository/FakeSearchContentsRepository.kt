@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.data.test.repository
+package com.codemozo.travelneko.core.data.test.repository
 
-import com.google.samples.apps.nowinandroid.core.data.repository.SearchContentsRepository
-import com.google.samples.apps.nowinandroid.core.model.data.SearchResult
+import com.codemozo.travelneko.core.data.repository.SearchContentsRepository
+import com.codemozo.travelneko.core.model.data.SearchResult
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flowOf
 import javax.inject.Inject

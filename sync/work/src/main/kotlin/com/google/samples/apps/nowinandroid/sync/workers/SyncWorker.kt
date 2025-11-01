@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.sync.workers
+package com.codemozo.travelneko.sync.workers
 
 import android.content.Context
 import androidx.hilt.work.HiltWorker
@@ -24,18 +24,18 @@ import androidx.work.ForegroundInfo
 import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.OutOfQuotaPolicy
 import androidx.work.WorkerParameters
-import com.google.samples.apps.nowinandroid.core.analytics.AnalyticsHelper
-import com.google.samples.apps.nowinandroid.core.data.Synchronizer
-import com.google.samples.apps.nowinandroid.core.data.repository.NewsRepository
-import com.google.samples.apps.nowinandroid.core.data.repository.SearchContentsRepository
-import com.google.samples.apps.nowinandroid.core.data.repository.TopicsRepository
-import com.google.samples.apps.nowinandroid.core.datastore.ChangeListVersions
-import com.google.samples.apps.nowinandroid.core.datastore.NiaPreferencesDataSource
-import com.google.samples.apps.nowinandroid.core.network.Dispatcher
-import com.google.samples.apps.nowinandroid.core.network.NiaDispatchers.IO
-import com.google.samples.apps.nowinandroid.sync.initializers.SyncConstraints
-import com.google.samples.apps.nowinandroid.sync.initializers.syncForegroundInfo
-import com.google.samples.apps.nowinandroid.sync.status.SyncSubscriber
+import com.codemozo.travelneko.core.analytics.AnalyticsHelper
+import com.codemozo.travelneko.core.data.Synchronizer
+import com.codemozo.travelneko.core.data.repository.NewsRepository
+import com.codemozo.travelneko.core.data.repository.SearchContentsRepository
+import com.codemozo.travelneko.core.data.repository.TopicsRepository
+import com.codemozo.travelneko.core.datastore.ChangeListVersions
+import com.codemozo.travelneko.core.datastore.NiaPreferencesDataSource
+import com.codemozo.travelneko.core.network.Dispatcher
+import com.codemozo.travelneko.core.network.NiaDispatchers.IO
+import com.codemozo.travelneko.sync.initializers.SyncConstraints
+import com.codemozo.travelneko.sync.initializers.syncForegroundInfo
+import com.codemozo.travelneko.sync.status.SyncSubscriber
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 import kotlinx.coroutines.CoroutineDispatcher

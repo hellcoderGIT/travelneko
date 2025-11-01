@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.datastore
+package com.codemozo.travelneko.core.datastore
 
-import com.google.samples.apps.nowinandroid.core.datastore.test.InMemoryDataStore
+import com.codemozo.travelneko.core.datastore.test.InMemoryDataStore
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.test.TestScope
 import kotlinx.coroutines.test.UnconfinedTestDispatcher

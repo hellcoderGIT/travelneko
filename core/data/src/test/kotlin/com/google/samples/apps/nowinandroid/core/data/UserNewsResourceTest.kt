@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.data
+package com.codemozo.travelneko.core.data
 
-import com.google.samples.apps.nowinandroid.core.model.data.DarkThemeConfig.FOLLOW_SYSTEM
-import com.google.samples.apps.nowinandroid.core.model.data.FollowableTopic
-import com.google.samples.apps.nowinandroid.core.model.data.NewsResource
-import com.google.samples.apps.nowinandroid.core.model.data.ThemeBrand.DEFAULT
-import com.google.samples.apps.nowinandroid.core.model.data.Topic
-import com.google.samples.apps.nowinandroid.core.model.data.UserData
-import com.google.samples.apps.nowinandroid.core.model.data.UserNewsResource
+import com.codemozo.travelneko.core.model.data.DarkThemeConfig.FOLLOW_SYSTEM
+import com.codemozo.travelneko.core.model.data.FollowableTopic
+import com.codemozo.travelneko.core.model.data.NewsResource
+import com.codemozo.travelneko.core.model.data.ThemeBrand.DEFAULT
+import com.codemozo.travelneko.core.model.data.Topic
+import com.codemozo.travelneko.core.model.data.UserData
+import com.codemozo.travelneko.core.model.data.UserNewsResource
 import kotlinx.datetime.Clock
 import org.junit.Test
 import kotlin.test.assertEquals

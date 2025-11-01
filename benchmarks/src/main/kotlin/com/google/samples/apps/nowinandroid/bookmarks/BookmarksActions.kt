@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.bookmarks
+package com.codemozo.travelneko.bookmarks
 
 import androidx.benchmark.macro.MacrobenchmarkScope
 import androidx.test.uiautomator.By
-import com.google.samples.apps.nowinandroid.waitForObjectOnTopAppBar
+import com.codemozo.travelneko.waitForObjectOnTopAppBar
 
 fun MacrobenchmarkScope.goToBookmarksScreen() {
     val savedSelector = By.text("Saved")

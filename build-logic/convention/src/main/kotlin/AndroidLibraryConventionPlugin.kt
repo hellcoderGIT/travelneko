@@ -16,12 +16,12 @@
 
 import com.android.build.api.dsl.LibraryExtension
 import com.android.build.api.variant.LibraryAndroidComponentsExtension
-import com.google.samples.apps.nowinandroid.configureFlavors
-import com.google.samples.apps.nowinandroid.configureGradleManagedDevices
-import com.google.samples.apps.nowinandroid.configureKotlinAndroid
-import com.google.samples.apps.nowinandroid.configurePrintApksTask
-import com.google.samples.apps.nowinandroid.disableUnnecessaryAndroidTests
-import com.google.samples.apps.nowinandroid.libs
+import com.codemozo.travelneko.configureFlavors
+import com.codemozo.travelneko.configureGradleManagedDevices
+import com.codemozo.travelneko.configureKotlinAndroid
+import com.codemozo.travelneko.configurePrintApksTask
+import com.codemozo.travelneko.disableUnnecessaryAndroidTests
+import com.codemozo.travelneko.libs
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.kotlin.dsl.apply

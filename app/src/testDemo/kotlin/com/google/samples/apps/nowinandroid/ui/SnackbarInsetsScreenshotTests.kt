@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.ui
+package com.codemozo.travelneko.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -60,14 +60,14 @@ import androidx.core.graphics.Insets
 import androidx.core.view.WindowInsetsCompat
 import androidx.window.core.layout.WindowSizeClass
 import com.github.takahirom.roborazzi.captureRoboImage
-import com.google.samples.apps.nowinandroid.core.data.repository.TopicsRepository
-import com.google.samples.apps.nowinandroid.core.data.repository.UserNewsResourceRepository
-import com.google.samples.apps.nowinandroid.core.data.test.repository.FakeUserDataRepository
-import com.google.samples.apps.nowinandroid.core.data.util.NetworkMonitor
-import com.google.samples.apps.nowinandroid.core.data.util.TimeZoneMonitor
-import com.google.samples.apps.nowinandroid.core.designsystem.theme.NiaTheme
-import com.google.samples.apps.nowinandroid.core.testing.util.DefaultRoborazziOptions
-import com.google.samples.apps.nowinandroid.uitesthiltmanifest.HiltComponentActivity
+import com.codemozo.travelneko.core.data.repository.TopicsRepository
+import com.codemozo.travelneko.core.data.repository.UserNewsResourceRepository
+import com.codemozo.travelneko.core.data.test.repository.FakeUserDataRepository
+import com.codemozo.travelneko.core.data.util.NetworkMonitor
+import com.codemozo.travelneko.core.data.util.TimeZoneMonitor
+import com.codemozo.travelneko.core.designsystem.theme.NiaTheme
+import com.codemozo.travelneko.core.testing.util.DefaultRoborazziOptions
+import com.codemozo.travelneko.uitesthiltmanifest.HiltComponentActivity
 import dagger.hilt.android.testing.HiltAndroidRule
 import dagger.hilt.android.testing.HiltAndroidTest
 import dagger.hilt.android.testing.HiltTestApplication

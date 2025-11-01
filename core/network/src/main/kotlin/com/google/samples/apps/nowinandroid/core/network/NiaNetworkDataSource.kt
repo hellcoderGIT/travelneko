@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.network
+package com.codemozo.travelneko.core.network
 
-import com.google.samples.apps.nowinandroid.core.network.model.NetworkChangeList
-import com.google.samples.apps.nowinandroid.core.network.model.NetworkNewsResource
-import com.google.samples.apps.nowinandroid.core.network.model.NetworkTopic
+import com.codemozo.travelneko.core.network.model.NetworkChangeList
+import com.codemozo.travelneko.core.network.model.NetworkNewsResource
+import com.codemozo.travelneko.core.network.model.NetworkTopic
 
 /**
  * Interface representing network calls to the NIA backend

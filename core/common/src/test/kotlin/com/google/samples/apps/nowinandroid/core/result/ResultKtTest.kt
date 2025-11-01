@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.result
+package com.codemozo.travelneko.core.result
 
 import app.cash.turbine.test
 import kotlinx.coroutines.flow.flow

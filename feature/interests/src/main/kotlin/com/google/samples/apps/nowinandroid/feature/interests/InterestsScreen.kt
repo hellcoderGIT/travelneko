@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.feature.interests
+package com.codemozo.travelneko.feature.interests
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.material3.Text
@@ -26,13 +26,13 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.PreviewParameter
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.google.samples.apps.nowinandroid.core.designsystem.component.NiaBackground
-import com.google.samples.apps.nowinandroid.core.designsystem.component.NiaLoadingWheel
-import com.google.samples.apps.nowinandroid.core.designsystem.theme.NiaTheme
-import com.google.samples.apps.nowinandroid.core.model.data.FollowableTopic
-import com.google.samples.apps.nowinandroid.core.ui.DevicePreviews
-import com.google.samples.apps.nowinandroid.core.ui.FollowableTopicPreviewParameterProvider
-import com.google.samples.apps.nowinandroid.core.ui.TrackScreenViewEvent
+import com.codemozo.travelneko.core.designsystem.component.NiaBackground
+import com.codemozo.travelneko.core.designsystem.component.NiaLoadingWheel
+import com.codemozo.travelneko.core.designsystem.theme.NiaTheme
+import com.codemozo.travelneko.core.model.data.FollowableTopic
+import com.codemozo.travelneko.core.ui.DevicePreviews
+import com.codemozo.travelneko.core.ui.FollowableTopicPreviewParameterProvider
+import com.codemozo.travelneko.core.ui.TrackScreenViewEvent
 
 @Composable
 fun InterestsRoute(

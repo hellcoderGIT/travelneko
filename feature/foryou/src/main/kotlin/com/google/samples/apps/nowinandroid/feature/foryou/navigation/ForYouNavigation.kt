@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.feature.foryou.navigation
+package com.codemozo.travelneko.feature.foryou.navigation
 
 import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder
@@ -22,8 +22,8 @@ import androidx.navigation.NavOptions
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.navigation
 import androidx.navigation.navDeepLink
-import com.google.samples.apps.nowinandroid.core.notifications.DEEP_LINK_URI_PATTERN
-import com.google.samples.apps.nowinandroid.feature.foryou.ForYouScreen
+import com.codemozo.travelneko.core.notifications.DEEP_LINK_URI_PATTERN
+import com.codemozo.travelneko.feature.foryou.ForYouScreen
 import kotlinx.serialization.Serializable
 
 @Serializable data object ForYouRoute // route to ForYou screen

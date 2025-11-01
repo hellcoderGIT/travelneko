@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.feature.foryou
+package com.codemozo.travelneko.feature.foryou
 
 import android.net.Uri
 import android.os.Build.VERSION
@@ -85,24 +85,24 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.google.accompanist.permissions.ExperimentalPermissionsApi
 import com.google.accompanist.permissions.PermissionStatus.Denied
 import com.google.accompanist.permissions.rememberPermissionState
-import com.google.samples.apps.nowinandroid.core.designsystem.component.DynamicAsyncImage
-import com.google.samples.apps.nowinandroid.core.designsystem.component.NiaButton
-import com.google.samples.apps.nowinandroid.core.designsystem.component.NiaIconToggleButton
-import com.google.samples.apps.nowinandroid.core.designsystem.component.NiaOverlayLoadingWheel
-import com.google.samples.apps.nowinandroid.core.designsystem.component.scrollbar.DecorativeScrollbar
-import com.google.samples.apps.nowinandroid.core.designsystem.component.scrollbar.DraggableScrollbar
-import com.google.samples.apps.nowinandroid.core.designsystem.component.scrollbar.rememberDraggableScroller
-import com.google.samples.apps.nowinandroid.core.designsystem.component.scrollbar.scrollbarState
-import com.google.samples.apps.nowinandroid.core.designsystem.icon.NiaIcons
-import com.google.samples.apps.nowinandroid.core.designsystem.theme.NiaTheme
-import com.google.samples.apps.nowinandroid.core.model.data.UserNewsResource
-import com.google.samples.apps.nowinandroid.core.ui.DevicePreviews
-import com.google.samples.apps.nowinandroid.core.ui.NewsFeedUiState
-import com.google.samples.apps.nowinandroid.core.ui.TrackScreenViewEvent
-import com.google.samples.apps.nowinandroid.core.ui.TrackScrollJank
-import com.google.samples.apps.nowinandroid.core.ui.UserNewsResourcePreviewParameterProvider
-import com.google.samples.apps.nowinandroid.core.ui.launchCustomChromeTab
-import com.google.samples.apps.nowinandroid.core.ui.newsFeed
+import com.codemozo.travelneko.core.designsystem.component.DynamicAsyncImage
+import com.codemozo.travelneko.core.designsystem.component.NiaButton
+import com.codemozo.travelneko.core.designsystem.component.NiaIconToggleButton
+import com.codemozo.travelneko.core.designsystem.component.NiaOverlayLoadingWheel
+import com.codemozo.travelneko.core.designsystem.component.scrollbar.DecorativeScrollbar
+import com.codemozo.travelneko.core.designsystem.component.scrollbar.DraggableScrollbar
+import com.codemozo.travelneko.core.designsystem.component.scrollbar.rememberDraggableScroller
+import com.codemozo.travelneko.core.designsystem.component.scrollbar.scrollbarState
+import com.codemozo.travelneko.core.designsystem.icon.NiaIcons
+import com.codemozo.travelneko.core.designsystem.theme.NiaTheme
+import com.codemozo.travelneko.core.model.data.UserNewsResource
+import com.codemozo.travelneko.core.ui.DevicePreviews
+import com.codemozo.travelneko.core.ui.NewsFeedUiState
+import com.codemozo.travelneko.core.ui.TrackScreenViewEvent
+import com.codemozo.travelneko.core.ui.TrackScrollJank
+import com.codemozo.travelneko.core.ui.UserNewsResourcePreviewParameterProvider
+import com.codemozo.travelneko.core.ui.launchCustomChromeTab
+import com.codemozo.travelneko.core.ui.newsFeed
 
 @Composable
 internal fun ForYouScreen(

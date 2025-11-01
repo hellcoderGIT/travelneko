@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.datastore.test
+package com.codemozo.travelneko.core.datastore.test
 
 import androidx.datastore.core.DataStore
-import com.google.samples.apps.nowinandroid.core.datastore.UserPreferences
-import com.google.samples.apps.nowinandroid.core.datastore.UserPreferencesSerializer
-import com.google.samples.apps.nowinandroid.core.datastore.di.DataStoreModule
+import com.codemozo.travelneko.core.datastore.UserPreferences
+import com.codemozo.travelneko.core.datastore.UserPreferencesSerializer
+import com.codemozo.travelneko.core.datastore.di.DataStoreModule
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.components.SingletonComponent

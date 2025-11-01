@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.baselineprofile
+package com.codemozo.travelneko.baselineprofile
 
 import androidx.benchmark.macro.junit4.BaselineProfileRule
-import com.google.samples.apps.nowinandroid.PACKAGE_NAME
-import com.google.samples.apps.nowinandroid.foryou.forYouScrollFeedDownUp
-import com.google.samples.apps.nowinandroid.foryou.forYouSelectTopics
-import com.google.samples.apps.nowinandroid.foryou.forYouWaitForContent
-import com.google.samples.apps.nowinandroid.startActivityAndAllowNotifications
+import com.codemozo.travelneko.PACKAGE_NAME
+import com.codemozo.travelneko.foryou.forYouScrollFeedDownUp
+import com.codemozo.travelneko.foryou.forYouSelectTopics
+import com.codemozo.travelneko.foryou.forYouWaitForContent
+import com.codemozo.travelneko.startActivityAndAllowNotifications
 import org.junit.Rule
 import org.junit.Test
 

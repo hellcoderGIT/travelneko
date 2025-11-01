@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.datastore
+package com.codemozo.travelneko.core.datastore
 
 /**
  * Class summarizing the local version of each model for sync

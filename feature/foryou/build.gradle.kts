@@ -22,7 +22,7 @@ plugins {
 }
 
 android {
-    namespace = "com.google.samples.apps.nowinandroid.feature.foryou"
+    namespace = "com.codemozo.travelneko.feature.foryou"
     testOptions.unitTests.isIncludeAndroidResources = true
 }
 

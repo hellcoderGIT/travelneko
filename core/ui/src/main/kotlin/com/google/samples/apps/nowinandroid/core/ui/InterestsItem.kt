@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.ui
+package com.codemozo.travelneko.core.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -34,11 +34,11 @@ import androidx.compose.ui.semantics.selected
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.google.samples.apps.nowinandroid.core.designsystem.component.DynamicAsyncImage
-import com.google.samples.apps.nowinandroid.core.designsystem.component.NiaIconToggleButton
-import com.google.samples.apps.nowinandroid.core.designsystem.icon.NiaIcons
-import com.google.samples.apps.nowinandroid.core.designsystem.theme.NiaTheme
-import com.google.samples.apps.nowinandroid.core.ui.R.string
+import com.codemozo.travelneko.core.designsystem.component.DynamicAsyncImage
+import com.codemozo.travelneko.core.designsystem.component.NiaIconToggleButton
+import com.codemozo.travelneko.core.designsystem.icon.NiaIcons
+import com.codemozo.travelneko.core.designsystem.theme.NiaTheme
+import com.codemozo.travelneko.core.ui.R.string
 
 @Composable
 fun InterestsItem(

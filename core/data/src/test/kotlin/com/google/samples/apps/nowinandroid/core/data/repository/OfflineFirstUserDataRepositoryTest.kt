@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.data.repository
+package com.codemozo.travelneko.core.data.repository
 
-import com.google.samples.apps.nowinandroid.core.analytics.NoOpAnalyticsHelper
-import com.google.samples.apps.nowinandroid.core.datastore.NiaPreferencesDataSource
-import com.google.samples.apps.nowinandroid.core.datastore.UserPreferences
-import com.google.samples.apps.nowinandroid.core.datastore.test.InMemoryDataStore
-import com.google.samples.apps.nowinandroid.core.model.data.DarkThemeConfig
-import com.google.samples.apps.nowinandroid.core.model.data.ThemeBrand
-import com.google.samples.apps.nowinandroid.core.model.data.UserData
+import com.codemozo.travelneko.core.analytics.NoOpAnalyticsHelper
+import com.codemozo.travelneko.core.datastore.NiaPreferencesDataSource
+import com.codemozo.travelneko.core.datastore.UserPreferences
+import com.codemozo.travelneko.core.datastore.test.InMemoryDataStore
+import com.codemozo.travelneko.core.model.data.DarkThemeConfig
+import com.codemozo.travelneko.core.model.data.ThemeBrand
+import com.codemozo.travelneko.core.model.data.UserData
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.test.TestScope

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.analytics
+package com.codemozo.travelneko.core.analytics
 
 /**
  * Interface for logging analytics events. See `FirebaseAnalyticsHelper` and
